@@ -48,4 +48,25 @@ Thanks for reading! Connect with me on LinkedIn and on Twitter to stay up to dat
 
 
 
-## **Hands On Practtice With NLTK**
+## **Hands On Practtice With NLTK** 
+
+**Installing NLTP**
+
+```python
+pip install nltk
+``` 
+
+**Load the Package and install all NLTK.**
+
+```python
+import nltk
+
+nltk.download()
+```
+
+**- NLTK Sentence Tokenizer.**
+```python
+text="Today is a great day. It is even better than yesterday. And yesterday was the best day ever."
+from nltk.tokenize import sent_tokenize
+sent_tokenize(text)
+```
